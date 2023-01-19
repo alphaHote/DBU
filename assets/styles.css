@@ -1,0 +1,188 @@
+/* #7B8B9A #333333 #212121 #FDFDFD #A9A9A9 */
+/* body {  margin: 0;  font-family: Arial, Helvetica, sans-serif;} */
+
+/* 
+colors gray blue:
+#bee9e8   Red = 190 , Green = 233 , Blue = 232
+#62b6cb   Red = 98 , Green = 182 , Blue = 203
+#1b4965   (Red = 27 , Green = 73 , Blue = 101)
+#cae9ff   (Red = 202 , Green = 233 , Blue = 255)
+#5fa8d3   (Red = 95 , Green = 168 , Blue = 211)
+
+*/
+
+/* 
+colors blue and orange:
+#002347  Red = 0 , Green = 35 , Blue = 71
+#003366  Red = 0 , Green = 51 , Blue = 102
+#003f7d  Red = 0 , Green = 63 , Blue = 125
+#ff8e00  Red = 255 , Green = 142 , Blue = 0
+#fd7702  Red = 253 , Green = 119 , Blue = 2
+#ff5003  Red = 255 , Green = 80 , Blue = 3
+
+
+*/
+
+div{
+  right: 0;
+}
+
+
+
+/* styles for body  __________________________________________________*/
+body{
+    margin: 0;  
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    position:relative;
+    background:url("../static/images/fond_islamique.png") center;
+    /* background-color:#063971; */
+    background-color: #003f7d;
+    /* z-index: -1000; */
+  }
+  
+  
+  /* styles for navbar __________________________________________________*/
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #03254c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #d0efff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .navbar a:hover {
+    background: #5fa8d3;
+    color: #03254c;
+  }
+  
+/* styles for main container _____________________________________________*/
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+}
+
+
+/* styles for barre de recherche _________________________________________*/
+
+.barreRecherche{
+  width: 100%;
+  height: 100%;
+  display:flex;
+  padding-left: 0%;
+  position: relative;
+}
+.barreRechercheInput{
+  height: 100%;
+}
+
+/*styles for table of centent ____________________________*/
+
+/* 
+colors orange graduations:
+#581845
+#900c3f
+#c70039
+#ff5733
+#ffc30f
+
+*/
+
+/*styles for scrolls ____________________________*/
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #5fa8d3; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #cae9ff; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #002347; 
+}
+
+
+.divTableau {
+  overflow:scroll;
+  height:300px;
+  /* width:200px; */
+  }
+.tableau {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+
+.tableau td, .tableau  th {
+  border: 1px solid #581845;
+  padding: 8px;
+}
+
+.tableau  tr:nth-child(even){background-color: #ff5733;}
+
+.tableau  tr:hover {background-color: #ffc30f;}
+
+.tableau  th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #900c3f;
+  color: #ffc30f;
+}
+
+
+/* styles for divs of graph _______________________________*/
+.graphContainer{
+  display        : flex;
+  /* justify-content: flex-start; */
+  align-items    : flex-start;
+  /* flex-wrap      : wrap; */
+}
+.Graph{
+  width:50%;
+  color:#ff8e00;
+}
+
+
+/* styles for titles */
+
+.title{
+  font:'sans-serif';
+  font-family: 'sans-serif';
+  font-size: 30px;
+  color : #fd7702;
+  background-color: #03254c;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
